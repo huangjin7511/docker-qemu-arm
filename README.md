@@ -15,7 +15,7 @@ Check the [Changes](CHANGELOG.md).
 ### Quick Install
 
 ```bash
-$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/huangjin7511/docker-qemu-arm/master/termux-setup.sh)"
+$ bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/huangjin7511/docker-qemu-arm@master/termux-setup.sh)"
 # WARNING: change your alpine root passwort (or run the custom installer if you want to start with a custom password)
 ```
 
@@ -25,7 +25,7 @@ $ bash -c "$(curl -fsSL https://raw.githubusercontent.com/huangjin7511/docker-qe
 $ pkg update
 $ pkg upgrade
 $ pkg install git
-$ git clone https://github.com/huangjin7511/docker-qemu-arm.git
+$ git clone https://xget.xi-xu.me/gh/huangjin7511/docker-qemu-arm.git
 $ cd docker-qemu-arm
 $ cp config.sample config.env
 $ # vi config.env # change everything you want to need to change
